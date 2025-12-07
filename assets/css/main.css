@@ -4940,8 +4940,8 @@ border:2px solid #5bc4b5 !important ;
 
   /* الصور */
   .img-container {
-    width: 120px !important;
-    height: 120px !important;
+    width: 50% !important;
+    height: 50% !important;
     margin: 0 auto !important;
   }
   .img-container img {
@@ -4958,7 +4958,7 @@ border:2px solid #5bc4b5 !important ;
   .InfoAdminras,
   .InfoAdminBH,
   .InfoAdmincs {
-    width: 47% !important;
+    width: 49% !important;
     align-items: center !important;
     text-wrap: wrap !important;
   }
@@ -4969,6 +4969,7 @@ border:2px solid #5bc4b5 !important ;
     text-wrap: wrap !important;
   }
 }
+
 @media (max-width: 575.98px) {
   .testimonials .aboutus {
     font-size: 1.5rem !important; /* بدلاً من fs-3 */
@@ -5093,4 +5094,44 @@ border:2px solid #5bc4b5 !important ;
     align-items: center !important;
   }
 }
+
+
+
+@media (max-width: 768px) {
+
+  .footer .top {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer .topitem {
+    width: 100% !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .footer h2 {
+    margin-top: 10px;
+  }
+ .footer .contactussmall{
+  max-height: 15% !important;
+  padding: 15px 5px 0px 5px !important;
+  position: relative;
+  bottom: 10px !important;
+ }
+  .footer .sociallinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}
+
 
